@@ -1,1 +1,21 @@
-dth
+EarthDay12 Cleanup ----
+
+
+(folder) root
+	- ed12cleanup.py
+	- index.html
+
+(folder) files
+	- main.css
+	- .js
+	
+(folder) pages
+	- about.html
+	- blog.html
+	- home.html
+	- how.html
+	- map.html
+	- media.html
+	- other.html
+	- partners.html
+	- photos.html
