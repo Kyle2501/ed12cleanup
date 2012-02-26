@@ -228,16 +228,16 @@ class EarthDayPhotos(webapp.RequestHandler):
 
 application = webapp.WSGIApplication([
 	('/', EarthDayIndex),
-    ('/gate', Gate),               
-	('/about', EarthDayAbout),
-	('/blog', EarthDayBlog),
-	('/home', EarthDayHome),
-	('/how', EarthDayHow),
-	('/map', EarthDayMap),
-	('/media', EarthDayMedia),
-	('/other', EarthDayOther),
-	('/partners', EarthDayPartners),
-	('/photos', EarthDayPhotos),
+    ('/gate/?', Gate),          
+	('/about/?', EarthDayAbout),
+	('/blog/?', EarthDayBlog),
+	('/home/?', EarthDayHome),
+	('/how/?', EarthDayHow),
+	('/map/?', EarthDayMap),
+	('/media/?', EarthDayMedia),
+	('/other/?', EarthDayOther),
+	('/partners/?', EarthDayPartners),
+	('/photos/?', EarthDayPhotos),
 	
 ], debug=True)
 
